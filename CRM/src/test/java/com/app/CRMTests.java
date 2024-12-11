@@ -3,7 +3,7 @@ package com.app;
 import org.junit.Test;
 
 
-class ApplicationTests {
+class CRMTests {
 
 	@Test
 	void contextLoads() {
