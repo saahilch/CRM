@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 
 import com.crm.dto.LoginRequest;
 import com.crm.entities.User;
-import com.crm.repository.FindAll;
+
 import com.crm.repository.UserRepository;
 
 
@@ -24,7 +24,7 @@ public class AuthService {
         Optional<User> user = userRepository.findByEmail(request.getEmail());
 
         if (user.isPresent() && user.get().getPassword().equals(request.getPassword())) {
-            return "Login Successful";
+            return "Login Successfull";
         } else if (user.isPresent()) {
             return "Invalid Password";
         } else {  
