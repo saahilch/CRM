@@ -19,9 +19,7 @@ public class AuthService {
     @Autowired
     private UserRepository userRepository;
     
-    @Autowired
-    private FindAll findAll;
-
+   
     public String login(LoginRequest request) {
         Optional<User> user = userRepository.findByEmail(request.getEmail());
 
