@@ -1,6 +1,7 @@
 package com.crm.dto;
 
 
+
 public class LoginRequest {
 
 	private String email;
