@@ -39,6 +39,7 @@ Database Setup:
 **Configure application.properties to connect to the database**.
 Configure Database Authentication With Your Userid & password.
 
+To The APis in postman with given steps
 **API Endpoints**
 
 **User Endpoints**
