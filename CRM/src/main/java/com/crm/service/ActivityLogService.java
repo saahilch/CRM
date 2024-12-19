@@ -20,4 +20,10 @@ public class ActivityLogService {
 	public ActivityLog logAction(ActivityLog log) {
 		return activityLogRepository.save(log);
 	}
+
+	public ActivityLog getActivityLogById(Long id) {
+		return activityLogRepository.findById(id).orElse(null); 
+		
+		
+	}
 }
