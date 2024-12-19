@@ -31,7 +31,7 @@ Clone the Repository:
 bash
 Copy code
 **git clone https://github.com/your-repository/crm-system.git**
-cd crm-system
+if clone not work then downlode zip file extract it & follow steps as a mention here
 
 Database Setup:
 **Create a MySQL database (or use H2 for testing)**.
